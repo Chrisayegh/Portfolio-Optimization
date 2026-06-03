@@ -1,5 +1,5 @@
 # Portfolio-Optimization
-# 📊 Portfolio Analysis — Sharpe Ratio Optimization
+# Portfolio Analysis — Sharpe Ratio Optimization
 
 > Quantitative analysis and portfolio optimization on 5 major US tech stocks (AAPL, MSFT, GOOGL, AMZN, TSLA)
 
@@ -16,13 +16,13 @@ This project applies quantitative finance techniques to analyze 3 years of histo
 ## Pipeline
 
 ```
-  📥 Data Download (yfinance)
+  Data Download (yfinance)
         │
         ▼
-  🧹 Cleaning — filter US market holidays
+  Cleaning — filter US market holidays
         │
         ▼
-  📈 Feature Engineering
+  Feature Engineering
      • Normalized prices (base 100)
      • Daily & log returns
      • Cumulative returns
@@ -30,10 +30,10 @@ This project applies quantitative finance techniques to analyze 3 years of histo
      • Sharpe Ratio per stock
         │
         ▼
-  📊 Visualization (4 charts)
+  Visualization (4 charts)
         │
         ▼
-  ⚡ Portfolio Optimization
+  Portfolio Optimization
      → Best asset selected by Sharpe Ratio
 ```
 
